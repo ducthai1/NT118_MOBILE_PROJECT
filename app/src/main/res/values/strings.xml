@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">YUMFOOD</string>
+    <string name="trangchu">Trang chủ</string>
+    <string name="donhang">Đơn hàng</string>
+    <string name="yeuthich">Yêu thích</string>
+    <string name="thongbao">Thông báo</string>
+    <string name="toi">Tôi</string>
 </resources>
