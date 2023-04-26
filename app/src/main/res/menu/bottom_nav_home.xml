@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/nav_home"
+        android:title="Home"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_home_24"/>
+    <item android:id="@+id/nav_my_ords"
+        android:title="Đơn hàng"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_fastfood_24"/>
+    <item android:id="@+id/nav_likes"
+        android:title="Yêu thích"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_star_24"/>
+    <item android:id="@+id/nav_notifications"
+        android:title="Thông báo"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_notifications_active_24"/>
+    <item android:id="@+id/nav_me"
+        android:title="Tôi"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_setting_black_24dp"/>
+</menu>
