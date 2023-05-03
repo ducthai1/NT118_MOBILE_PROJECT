@@ -10,6 +10,7 @@ import androidx.fragment.app.FragmentTransaction;
 import com.example.yumfood.R;
 
 
+import com.example.yumfood.customer.home.homepage.HomeFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 
@@ -23,6 +24,7 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         btnBottom_Nav_HomeID = findViewById(R.id.bottom_nav_home);
+        setFragment(new HomeFragment());
         btnBottom_Nav_HomeID.setSelectedItemId(R.id.nav_home);
 
     }
