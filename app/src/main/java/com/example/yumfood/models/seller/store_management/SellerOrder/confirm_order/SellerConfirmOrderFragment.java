@@ -1,4 +1,4 @@
-package com.example.yumfood.seller.store_selection;
+package com.example.yumfood.models.seller.store_management.SellerOrder.confirm_order;
 
 import android.os.Bundle;
 
@@ -12,10 +12,10 @@ import com.example.yumfood.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link SellerAddNewStoreFragment#newInstance} factory method to
+ * Use the {@link SellerConfirmOrderFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class SellerAddNewStoreFragment extends Fragment {
+public class SellerConfirmOrderFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -26,7 +26,7 @@ public class SellerAddNewStoreFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public SellerAddNewStoreFragment() {
+    public SellerConfirmOrderFragment() {
         // Required empty public constructor
     }
 
@@ -36,11 +36,11 @@ public class SellerAddNewStoreFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment SellerAddNewStoreFragment.
+     * @return A new instance of fragment SellerConfirmOrderFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static SellerAddNewStoreFragment newInstance(String param1, String param2) {
-        SellerAddNewStoreFragment fragment = new SellerAddNewStoreFragment();
+    public static SellerConfirmOrderFragment newInstance(String param1, String param2) {
+        SellerConfirmOrderFragment fragment = new SellerConfirmOrderFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -61,6 +61,6 @@ public class SellerAddNewStoreFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_seller_add_new_store, container, false);
+        return inflater.inflate(R.layout.fragment_seller_confirm_order, container, false);
     }
 }

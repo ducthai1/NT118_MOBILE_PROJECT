@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_color"
-    tools:context=".seller.store_management.SellerOrder.new_order.SellerNewOrderFragment">
+    tools:context=".models.seller.store_management.SellerOrder.new_order.SellerNewOrderFragment">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/fragment_new_order_rcv_order"

@@ -1,4 +1,4 @@
-package com.example.yumfood.seller.order_detail;
+package com.example.yumfood.models.seller.order_detail;
 
 <<<<<<< HEAD
 import android.app.AlertDialog;

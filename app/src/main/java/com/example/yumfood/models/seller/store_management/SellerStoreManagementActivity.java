@@ -1,4 +1,4 @@
-package com.example.yumfood.seller.store_management;
+package com.example.yumfood.models.seller.store_management;
 
 import androidx.appcompat.app.AppCompatActivity;
 
