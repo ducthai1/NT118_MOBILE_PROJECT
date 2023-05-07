@@ -11,6 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.YUMFOOD"
         tools:targetApi="31">
+
         <activity
             android:name=".customer.home.HomeActivity"
             android:exported="false" />
@@ -24,7 +25,11 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
+<<<<<<< HEAD
             android:name=".customer.store_detail.StoreDetailActivity"
+=======
+            android:name=".seller.order_detail.SellerOrderDetailActivity"
+>>>>>>> d5cfd75c0444994b0dd7b373c48d4f8d0ee6333d
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
