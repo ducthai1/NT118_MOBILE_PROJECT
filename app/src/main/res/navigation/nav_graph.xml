@@ -8,14 +8,17 @@
     <fragment
         android:id="@+id/FirstFragment"
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:name="com.example.myapplication.merchant.choose_store.ViewStoreFragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_view_store">
 =======
         android:name="com.example.yumfood.seller.store_selection.SellerViewStoreFragment"
+=======
+        android:name="com.example.yumfood.models.seller.store_selection.SellerViewStoreFragment"
+>>>>>>> parent of 995ab03 (Tran)
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_seller_view_store">
->>>>>>> 437a91090d18f5a96cd20f46c07d9e5aff81a5be
 
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
@@ -24,14 +27,17 @@
     <fragment
         android:id="@+id/SecondFragment"
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:name="com.example.myapplication.merchant.choose_store.AddNewStoreFragment"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_add_new_store">
 =======
         android:name="com.example.yumfood.seller.store_selection.SellerAddNewStoreFragment"
+=======
+        android:name="com.example.yumfood.models.seller.store_selection.SellerAddNewStoreFragment"
+>>>>>>> parent of 995ab03 (Tran)
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_seller_add_new_store">
->>>>>>> 437a91090d18f5a96cd20f46c07d9e5aff81a5be
 
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"

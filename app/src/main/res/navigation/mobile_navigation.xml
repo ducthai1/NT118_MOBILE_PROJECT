@@ -8,6 +8,7 @@
     <fragment
         android:id="@+id/navigation_home"
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:name="com.example.myapplication.merchant.store_management.MerchantOrder.MerchantOrderFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_merchant_order" />
@@ -15,6 +16,9 @@
     <fragment
 =======
         android:name="com.example.yumfood.seller.store_management.SellerOrder.SellerOrderFragment"
+=======
+        android:name="com.example.yumfood.models.seller.store_management.SellerOrder.SellerOrderFragment"
+>>>>>>> parent of 995ab03 (Tran)
         android:label="@string/trangchu"
         tools:layout="@layout/fragment_seller_order" />
 
@@ -22,7 +26,6 @@
 </navigation>
 <!--
  <fragment
->>>>>>> 437a91090d18f5a96cd20f46c07d9e5aff81a5be
         android:id="@+id/navigation_dashboard"
         android:name="com.example.myapplication.merchant.store_management.MenuManagement.MenuManagementFragment"
         android:label="@string/title_dashboard"
@@ -38,8 +41,4 @@
         android:name="com.example.myapplication.merchant.store_management.Me.Merchant_Shop_Detail_Fragment"
         android:label="Tôi"
         tools:layout="@layout/fragment_merchant__shop__detail_" />
-<<<<<<< HEAD
-</navigation>
-=======
 -->
->>>>>>> 437a91090d18f5a96cd20f46c07d9e5aff81a5be

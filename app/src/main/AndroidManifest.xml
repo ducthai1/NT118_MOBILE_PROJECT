@@ -9,7 +9,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyApplication"
+        android:theme="@style/Theme.YUMFOOD"
         tools:targetApi="31">
 
         <activity
@@ -25,7 +25,11 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
+<<<<<<< HEAD
             android:name=".seller.order_detail.SellerOrderDetailActivity"
+=======
+            android:name=".customer.store_detail.StoreDetailActivity"
+>>>>>>> parent of 995ab03 (Tran)
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
