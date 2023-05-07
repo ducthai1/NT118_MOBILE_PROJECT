@@ -27,10 +27,17 @@
         <activity
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             android:name=".seller.order_detail.SellerOrderDetailActivity"
 =======
             android:name=".customer.store_detail.StoreDetailActivity"
 >>>>>>> parent of 995ab03 (Tran)
+=======
+            android:name=".customer.store_detail.StoreDetailActivity"
+=======
+            android:name=".seller.order_detail.SellerOrderDetailActivity"
+>>>>>>> d5cfd75c0444994b0dd7b373c48d4f8d0ee6333d
+>>>>>>> parent of d188f1f (tran)
 =======
             android:name=".customer.store_detail.StoreDetailActivity"
 =======

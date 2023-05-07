@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:name="com.example.myapplication.merchant.store_management.MerchantOrder.MerchantOrderFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_merchant_order" />
@@ -20,6 +21,9 @@
 =======
         android:name="com.example.yumfood.models.seller.store_management.SellerOrder.SellerOrderFragment"
 >>>>>>> parent of 995ab03 (Tran)
+=======
+        android:name="com.example.yumfood.seller.store_management.SellerOrder.SellerOrderFragment"
+>>>>>>> parent of d188f1f (tran)
 =======
         android:name="com.example.yumfood.seller.store_management.SellerOrder.SellerOrderFragment"
 >>>>>>> parent of d188f1f (tran)
