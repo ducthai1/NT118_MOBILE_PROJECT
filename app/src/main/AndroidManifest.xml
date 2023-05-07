@@ -11,10 +11,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.YUMFOOD"
         tools:targetApi="31">
-
-        <activity
-            android:name=".customer.home.HomeActivity"
-            android:exported="false" />
         <activity
             android:name=".LoginActivity"
             android:exported="false" />
@@ -25,6 +21,7 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44,11 +41,14 @@
             android:name=".seller.order_detail.SellerOrderDetailActivity"
 >>>>>>> d5cfd75c0444994b0dd7b373c48d4f8d0ee6333d
 >>>>>>> parent of d188f1f (tran)
+=======
+            android:name=".customer.home.HomeActivity"
+>>>>>>> parent of 8cf75f1 (tlinh)
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
     </application>

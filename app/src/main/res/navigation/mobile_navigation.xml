@@ -11,11 +11,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 8cf75f1 (tlinh)
         android:name="com.example.myapplication.merchant.store_management.MerchantOrder.MerchantOrderFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_merchant_order" />
 
     <fragment
+<<<<<<< HEAD
 =======
         android:name="com.example.yumfood.seller.store_management.SellerOrder.SellerOrderFragment"
 =======
@@ -34,6 +38,8 @@
 </navigation>
 <!--
  <fragment
+=======
+>>>>>>> parent of 8cf75f1 (tlinh)
         android:id="@+id/navigation_dashboard"
         android:name="com.example.myapplication.merchant.store_management.MenuManagement.MenuManagementFragment"
         android:label="@string/title_dashboard"
@@ -49,4 +55,8 @@
         android:name="com.example.myapplication.merchant.store_management.Me.Merchant_Shop_Detail_Fragment"
         android:label="Tôi"
         tools:layout="@layout/fragment_merchant__shop__detail_" />
+<<<<<<< HEAD
 -->
+=======
+</navigation>
+>>>>>>> parent of 8cf75f1 (tlinh)

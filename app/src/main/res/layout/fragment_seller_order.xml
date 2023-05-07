@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     tools:context=".merchant.store_management.MerchantOrder.MerchantOrderFragment">
 =======
     tools:context=".seller.store_management.SellerOrder.SellerOrderFragment">
@@ -21,6 +22,9 @@
 =======
     tools:context=".seller.store_management.SellerOrder.SellerOrderFragment">
 >>>>>>> parent of d188f1f (tran)
+=======
+    tools:context=".merchant.store_management.MerchantOrder.MerchantOrderFragment">
+>>>>>>> parent of 8cf75f1 (tlinh)
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/top_bar"
@@ -32,7 +36,11 @@
             android:id="@+id/fragement_merchant_order_iv_btn_back"
             android:layout_width="30dp"
             android:layout_height="30dp"
+<<<<<<< HEAD
             android:src="@drawable/icon_arrow_back_48px"
+=======
+            android:src="@drawable/backbutton"
+>>>>>>> parent of 8cf75f1 (tlinh)
             android:layout_marginLeft="15dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -54,7 +62,11 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="0.2dp"
+<<<<<<< HEAD
             android:background="@color/white"
+=======
+            android:background="@color/colorAccent"
+>>>>>>> parent of 8cf75f1 (tlinh)
             app:layout_constraintBottom_toBottomOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -62,12 +74,20 @@
         android:id="@+id/fragment_merchant_order_tab_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
+=======
+        app:tabTextAppearance="@style/MyCustomTextAppearance"
+>>>>>>> parent of 8cf75f1 (tlinh)
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         app:tabIndicatorFullWidth="false"
         app:layout_constraintTop_toBottomOf="@+id/top_bar"/>
+<<<<<<< HEAD
 <!--        app:tabTextAppearance="@style/MyCustomTextAppearance"
 -->
+=======
+
+>>>>>>> parent of 8cf75f1 (tlinh)
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/fragment_merchant_order_view_pager"
         android:layout_width="match_parent"

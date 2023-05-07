@@ -4,7 +4,11 @@
         <item>
             <shape>
                 <solid
+<<<<<<< HEAD
                     android:color="#FFD8C4">
+=======
+                    android:color="#FFFFFF">
+>>>>>>> parent of 8cf75f1 (tlinh)
                 </solid>
 
                 <corners android:radius="3dp" />
@@ -21,7 +25,11 @@
         </item>
         <item >
             <bitmap android:gravity="bottom|right"
+<<<<<<< HEAD
                 android:src="@drawable/icons8_sort_down_32"/>
+=======
+                android:src="@drawable/icons8_sort_down_32" />
+>>>>>>> parent of 8cf75f1 (tlinh)
         </item>
     </layer-list></item>
 </selector>

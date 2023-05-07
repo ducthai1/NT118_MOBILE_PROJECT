@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:name="com.example.myapplication.merchant.choose_store.ViewStoreFragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_view_store">
@@ -27,6 +28,11 @@
 >>>>>>> parent of d188f1f (tran)
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_seller_view_store">
+=======
+        android:name="com.example.myapplication.merchant.choose_store.ViewStoreFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_view_store">
+>>>>>>> parent of 8cf75f1 (tlinh)
 
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
@@ -34,6 +40,7 @@
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54,6 +61,11 @@
 >>>>>>> parent of d188f1f (tran)
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_seller_add_new_store">
+=======
+        android:name="com.example.myapplication.merchant.choose_store.AddNewStoreFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_add_new_store">
+>>>>>>> parent of 8cf75f1 (tlinh)
 
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"
