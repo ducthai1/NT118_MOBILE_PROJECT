@@ -1,4 +1,4 @@
-package com.example.yumfood.models.seller.store_management.SellerOrder;
+package com.example.yumfood.seller.store_management.SellerOrder;
 
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;

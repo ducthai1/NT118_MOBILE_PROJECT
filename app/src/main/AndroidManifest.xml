@@ -25,11 +25,7 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-<<<<<<< HEAD
-            android:name=".customer.store_detail.StoreDetailActivity"
-=======
             android:name=".seller.order_detail.SellerOrderDetailActivity"
->>>>>>> 8cf75f170a9a35e271456f100578cb405a1947f0
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

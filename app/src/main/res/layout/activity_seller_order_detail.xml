@@ -8,12 +8,8 @@
     android:background="@color/background_color1"
 =======
     android:background="@color/background_color"
-<<<<<<< HEAD
-    tools:context=".models.seller.order_detail.SellerOrderDetailActivity">
-=======
 >>>>>>> 437a91090d18f5a96cd20f46c07d9e5aff81a5be
     tools:context=".seller.order_detail.SellerOrderDetailActivity">
->>>>>>> 8cf75f170a9a35e271456f100578cb405a1947f0
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">

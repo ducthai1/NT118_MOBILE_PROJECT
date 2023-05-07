@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".models.seller.store_selection.SellerViewStoreFragment"
+    tools:context=".seller.store_selection.SellerViewStoreFragment"
     android:layout_marginTop="35dp">
 
     <LinearLayout
