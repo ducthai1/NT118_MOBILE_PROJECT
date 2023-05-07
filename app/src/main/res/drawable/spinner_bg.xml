@@ -4,7 +4,11 @@
         <item>
             <shape>
                 <solid
+<<<<<<< HEAD
+                    android:color="#FFFFFF">
+=======
                     android:color="#FFD8C4">
+>>>>>>> 437a91090d18f5a96cd20f46c07d9e5aff81a5be
                 </solid>
 
                 <corners android:radius="3dp" />
@@ -21,7 +25,11 @@
         </item>
         <item >
             <bitmap android:gravity="bottom|right"
+<<<<<<< HEAD
+                android:src="@drawable/icons8_sort_down_32" />
+=======
                 android:src="@drawable/icons8_sort_down_32"/>
+>>>>>>> 437a91090d18f5a96cd20f46c07d9e5aff81a5be
         </item>
     </layer-list></item>
 </selector>

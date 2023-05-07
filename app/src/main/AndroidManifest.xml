@@ -9,7 +9,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.YUMFOOD"
+        android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
 
         <activity
@@ -25,7 +25,11 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
+<<<<<<< HEAD
             android:name=".customer.store_detail.StoreDetailActivity"
+=======
+            android:name=".seller.order_detail.SellerOrderDetailActivity"
+>>>>>>> 8cf75f170a9a35e271456f100578cb405a1947f0
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
