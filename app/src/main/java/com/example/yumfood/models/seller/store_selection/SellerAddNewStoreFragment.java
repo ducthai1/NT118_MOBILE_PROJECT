@@ -1,4 +1,4 @@
-package com.example.yumfood.seller.store_selection;
+package com.example.yumfood.models.seller.store_selection;
 
 import android.os.Bundle;
 

@@ -1,4 +1,4 @@
-package com.example.yumfood.seller.store_management.SellerOrder.confirm_order;
+package com.example.yumfood.models.seller.store_management.SellerOrder.confirm_order;
 
 import android.os.Bundle;
 
