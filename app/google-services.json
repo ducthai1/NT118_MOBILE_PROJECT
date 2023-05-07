@@ -1,71 +1,42 @@
 {
   "project_info": {
-    "project_number": "949638271919",
-    "firebase_url": "https://gofood-2d815-default-rtdb.firebaseio.com",
-    "project_id": "gofood-2d815",
-    "storage_bucket": "gofood-2d815.appspot.com"
+    "project_number": "423285286507",
+    "firebase_url": "https://yumfood-d93ca-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "yumfood-d93ca",
+    "storage_bucket": "yumfood-d93ca.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:949638271919:android:02ee40af01a4bb94de955a",
-        "android_client_info": {
-          "package_name": "com.example.myapplication"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "949638271919-prio1k1f91jrnu8chc7lsipkei9bpl8b.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBuhqvZf-x34vtR4mlYWunuqPWGxtNtsrA"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "949638271919-prio1k1f91jrnu8chc7lsipkei9bpl8b.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:949638271919:android:06d15f9b2320c70bde955a",
+        "mobilesdk_app_id": "1:423285286507:android:164cacd3d21e5ac8ab732e",
         "android_client_info": {
           "package_name": "com.example.yumfood"
         }
       },
       "oauth_client": [
         {
-          "client_id": "949638271919-5eqq0re4er3sc40nm82u35nip5kgmlp4.apps.googleusercontent.com",
+          "client_id": "423285286507-hd4p4tukd9sfceq2u8rg3imd7nr5gond.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.yumfood",
-            "certificate_hash": "f1c949b06224647c5b87da21dc0b6c1fc8754aff"
+            "certificate_hash": "1024bedf3c862dfb9c085f924f33e635d80ea88a"
           }
         },
         {
-          "client_id": "949638271919-prio1k1f91jrnu8chc7lsipkei9bpl8b.apps.googleusercontent.com",
+          "client_id": "423285286507-0r5lstlt8gram607v1orcn575ng8g432.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBuhqvZf-x34vtR4mlYWunuqPWGxtNtsrA"
+          "current_key": "AIzaSyDS2f_o-HMqrfCko_oD7nwcKEYYNNtJdpQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "949638271919-prio1k1f91jrnu8chc7lsipkei9bpl8b.apps.googleusercontent.com",
+              "client_id": "423285286507-0r5lstlt8gram607v1orcn575ng8g432.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
