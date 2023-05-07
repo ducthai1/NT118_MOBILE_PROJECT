@@ -6,11 +6,15 @@
     android:layout_height="match_parent"
     android:background="@color/background_color"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 437a91090d18f5a96cd20f46c07d9e5aff81a5be
     tools:context=".seller.order_detail.SellerOrderDetailActivity">
 =======
     tools:context=".models.seller.order_detail.SellerOrderDetailActivity">
 >>>>>>> parent of 995ab03 (Tran)
+=======
+    tools:context=".seller.order_detail.SellerOrderDetailActivity">
+>>>>>>> parent of d188f1f (tran)
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
