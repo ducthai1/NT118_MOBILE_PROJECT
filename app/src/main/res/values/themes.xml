@@ -14,6 +14,7 @@
         <!-- Customize your theme here. -->
     </style>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <style name="Circular">
         <item name="cornerSize">50%</item>
 
@@ -52,4 +53,6 @@
 
     <style name="Theme.MyApplication.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 >>>>>>> parent of 8cf75f1 (tlinh)
+=======
+>>>>>>> parent of b80cf11 (tlinh)
 </resources>

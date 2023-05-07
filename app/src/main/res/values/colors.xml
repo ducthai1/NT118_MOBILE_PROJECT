@@ -8,13 +8,17 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <color name="green">#34B92C</color>
     <color name="red">#FF1A1A</color>
 
+=======
+>>>>>>> parent of b80cf11 (tlinh)
 
     <color name="primary_color">#F86E25</color>
     <color name="primary_white">#EEEFF2</color>
     <color name="primary_dark">#021B44</color>
+<<<<<<< HEAD
     <color name="primary_grey">#c5cad3</color>
 
     <color name="background_color">#FFD8C4</color>
@@ -30,4 +34,9 @@
     <color name="background_color1">#F5F5F5</color>
     <color name="dang_hoat_dong">#00FF00</color>
 >>>>>>> parent of 8cf75f1 (tlinh)
+=======
+    <color name="primary_grey">#EEE2FE</color>
+
+    <color name="background_color">#FFD8C4</color>
+>>>>>>> parent of b80cf11 (tlinh)
 </resources>

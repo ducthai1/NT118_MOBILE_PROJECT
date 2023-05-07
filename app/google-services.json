@@ -1,6 +1,7 @@
 {
   "project_info": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "project_number": "37063570331",
     "firebase_url": "https://yumfood-6ae57-default-rtdb.asia-southeast1.firebasedatabase.app",
     "project_id": "yumfood-6ae57",
@@ -11,21 +12,32 @@
     "project_id": "yumfood-d93ca",
     "storage_bucket": "yumfood-d93ca.appspot.com"
 >>>>>>> parent of 8cf75f1 (tlinh)
+=======
+    "project_number": "949638271919",
+    "firebase_url": "https://gofood-2d815-default-rtdb.firebaseio.com",
+    "project_id": "gofood-2d815",
+    "storage_bucket": "gofood-2d815.appspot.com"
+>>>>>>> parent of b80cf11 (tlinh)
   },
   "client": [
     {
       "client_info": {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "mobilesdk_app_id": "1:37063570331:android:712aedbf11354fea59e73e",
 =======
         "mobilesdk_app_id": "1:423285286507:android:164cacd3d21e5ac8ab732e",
 >>>>>>> parent of 8cf75f1 (tlinh)
+=======
+        "mobilesdk_app_id": "1:949638271919:android:02ee40af01a4bb94de955a",
+>>>>>>> parent of b80cf11 (tlinh)
         "android_client_info": {
-          "package_name": "com.example.yumfood"
+          "package_name": "com.example.myapplication"
         }
       },
       "oauth_client": [
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
           "client_id": "37063570331-u6qt7r6o0k4fb80q2vqch6udfqrnilsc.apps.googleusercontent.com",
           "client_type": 1,
@@ -47,16 +59,23 @@
         {
           "client_id": "423285286507-0r5lstlt8gram607v1orcn575ng8g432.apps.googleusercontent.com",
 >>>>>>> parent of 8cf75f1 (tlinh)
+=======
+          "client_id": "949638271919-prio1k1f91jrnu8chc7lsipkei9bpl8b.apps.googleusercontent.com",
+>>>>>>> parent of b80cf11 (tlinh)
           "client_type": 3
         }
       ],
       "api_key": [
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
           "current_key": "AIzaSyBmjqzN9pqxelCRnyUvo0KJR1r5OQeHBsQ"
 =======
           "current_key": "AIzaSyDS2f_o-HMqrfCko_oD7nwcKEYYNNtJdpQ"
 >>>>>>> parent of 8cf75f1 (tlinh)
+=======
+          "current_key": "AIzaSyBuhqvZf-x34vtR4mlYWunuqPWGxtNtsrA"
+>>>>>>> parent of b80cf11 (tlinh)
         }
       ],
       "services": {
@@ -64,10 +83,51 @@
           "other_platform_oauth_client": [
             {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "client_id": "37063570331-59t3n29a4mu9mdsgbei78olk5oq1qq5g.apps.googleusercontent.com",
 =======
               "client_id": "423285286507-0r5lstlt8gram607v1orcn575ng8g432.apps.googleusercontent.com",
 >>>>>>> parent of 8cf75f1 (tlinh)
+=======
+              "client_id": "949638271919-prio1k1f91jrnu8chc7lsipkei9bpl8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949638271919:android:06d15f9b2320c70bde955a",
+        "android_client_info": {
+          "package_name": "com.example.yumfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949638271919-5eqq0re4er3sc40nm82u35nip5kgmlp4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yumfood",
+            "certificate_hash": "f1c949b06224647c5b87da21dc0b6c1fc8754aff"
+          }
+        },
+        {
+          "client_id": "949638271919-prio1k1f91jrnu8chc7lsipkei9bpl8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuhqvZf-x34vtR4mlYWunuqPWGxtNtsrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949638271919-prio1k1f91jrnu8chc7lsipkei9bpl8b.apps.googleusercontent.com",
+>>>>>>> parent of b80cf11 (tlinh)
               "client_type": 3
             }
           ]
