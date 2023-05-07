@@ -4,7 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context=".merchant.store_management.MerchantOrder.MerchantOrderFragment">
+=======
+    tools:context=".seller.store_management.SellerOrder.SellerOrderFragment">
+>>>>>>> 437a91090d18f5a96cd20f46c07d9e5aff81a5be
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/top_bar"
@@ -16,7 +20,11 @@
             android:id="@+id/fragement_merchant_order_iv_btn_back"
             android:layout_width="30dp"
             android:layout_height="30dp"
+<<<<<<< HEAD
             android:src="@drawable/backbutton"
+=======
+            android:src="@drawable/icon_arrow_back_48px"
+>>>>>>> 437a91090d18f5a96cd20f46c07d9e5aff81a5be
             android:layout_marginLeft="15dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -38,7 +46,11 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="0.2dp"
+<<<<<<< HEAD
             android:background="@color/colorAccent"
+=======
+            android:background="@color/white"
+>>>>>>> 437a91090d18f5a96cd20f46c07d9e5aff81a5be
             app:layout_constraintBottom_toBottomOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -46,12 +58,20 @@
         android:id="@+id/fragment_merchant_order_tab_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         app:tabTextAppearance="@style/MyCustomTextAppearance"
+=======
+>>>>>>> 437a91090d18f5a96cd20f46c07d9e5aff81a5be
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         app:tabIndicatorFullWidth="false"
         app:layout_constraintTop_toBottomOf="@+id/top_bar"/>
+<<<<<<< HEAD
 
+=======
+<!--        app:tabTextAppearance="@style/MyCustomTextAppearance"
+-->
+>>>>>>> 437a91090d18f5a96cd20f46c07d9e5aff81a5be
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/fragment_merchant_order_view_pager"
         android:layout_width="match_parent"

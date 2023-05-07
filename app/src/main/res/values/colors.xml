@@ -8,6 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="gray">#D1D1D1</color>
     <color name="white">#FFFFFFFF</color>
+<<<<<<< HEAD
     <color name="color_primary">#F2789F</color>
     <color name="primary_color">#F2789F</color>
     <color name="primary_dark">#F2789F</color>
@@ -18,4 +19,16 @@
     <color name="red">#FF0000</color>
     <color name="background_color1">#F5F5F5</color>
     <color name="dang_hoat_dong">#00FF00</color>
+=======
+    <color name="green">#34B92C</color>
+    <color name="red">#FF1A1A</color>
+
+
+    <color name="primary_color">#F86E25</color>
+    <color name="primary_white">#EEEFF2</color>
+    <color name="primary_dark">#021B44</color>
+    <color name="primary_grey">#c5cad3</color>
+
+    <color name="background_color">#FFD8C4</color>
+>>>>>>> 437a91090d18f5a96cd20f46c07d9e5aff81a5be
 </resources>

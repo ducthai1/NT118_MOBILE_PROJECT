@@ -1,5 +1,6 @@
 package com.example.yumfood.seller.order_detail;
 
+<<<<<<< HEAD
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -307,3 +308,19 @@ public class SellerOrderDetailActivity extends AppCompatActivity {
     }
 }
 
+=======
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+import com.example.yumfood.R;
+
+public class SellerOrderDetailActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_seller_order_detail);
+    }
+}
+>>>>>>> 437a91090d18f5a96cd20f46c07d9e5aff81a5be
