@@ -10,32 +10,31 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager2.widget.ViewPager2;
 
-import com.example.yumfood.databinding.FragmentMenuManagementBinding;
+import com.example.yumfood.R;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
 
 public class MenuManagementFragment extends Fragment {
 
 //    private MenuManagementViewModel dashboardViewModel;
-    private FragmentMenuManagementBinding binding;
     private TabLayout tabLayout;
     private ViewPager2 viewPager;
     private ViewPagerAdapter viewPagerAdapter;
-
+    private View view;
     private void initUi()
     {
-        tabLayout = binding.tabLayout;
-        viewPager = binding.viewPager;
+        tabLayout = view.findViewById(R.id.tab_layout);
+        viewPager = view.findViewById(R.id.view_pager);
     }
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
 //        dashboardViewModel =
 //                new ViewModelProvider(this).get(MenuManagementViewModel.class);
-        binding = FragmentMenuManagementBinding.inflate(inflater, container, false);
-        View root = binding.getRoot();
-        initUi();
+        view = inflater.inflate(R.layout.fragment_menu_management, container, false);
 
+        initUi();
+        return view;
         // Set Action Bar
 //        ((AppCompatActivity) getActivity()).getSupportActionBar().hide();
 //        final TextView textView = binding.textDashboard;
@@ -56,7 +55,7 @@ public class MenuManagementFragment extends Fragment {
 //                        .commit();
 //            }
 //        });
-        return root;
+
     }
 
     @Override
@@ -82,6 +81,6 @@ public class MenuManagementFragment extends Fragment {
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        binding = null;
+        view = null;
     }
 }

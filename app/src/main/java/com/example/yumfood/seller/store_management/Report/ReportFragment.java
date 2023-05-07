@@ -11,20 +11,22 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.yumfood.databinding.FragmentReportBinding;
+import com.example.yumfood.R;
+
 
 public class ReportFragment extends Fragment {
 
     private ReportViewModel notificationsViewModel;
-    private FragmentReportBinding binding;
+    private View   view;
+
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         notificationsViewModel =
                 new ViewModelProvider(this).get(ReportViewModel.class);
 
-        binding = FragmentReportBinding.inflate(inflater, container, false);
-        View root = binding.getRoot();
+        view = inflater.inflate(R.layout.fragment_report, container, false);
+
 
         notificationsViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
@@ -32,12 +34,12 @@ public class ReportFragment extends Fragment {
 
             }
         });
-        return root;
+        return view;
     }
 
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        binding = null;
+        view = null;
     }
 }
